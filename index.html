@@ -4,37 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Vezgo — Privacy Policy | מדיניות פרטיות | سياسة الخصوصية</title>
-<style>
-  :root { --brand:#46909E; --ink:#111827; --muted:#6b7280; --line:#e5e7eb; }
-  *{box-sizing:border-box}
-  body{margin:0;background:#f7f8fa;color:var(--ink);
-       font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.65}
-  header{background:linear-gradient(135deg,#46909E,#35727E);color:#fff;padding:40px 20px;text-align:center}
-  header .logo{font-size:34px;font-weight:900;letter-spacing:-1px}
-  header p{margin:6px 0 0;opacity:.9;font-size:15px}
-  .wrap{max-width:820px;margin:-20px auto 60px;padding:0 16px}
-  .card{background:#fff;border-radius:20px;padding:28px;box-shadow:0 4px 20px rgba(0,0,0,.05);margin-bottom:20px}
-  .tabs{display:flex;gap:8px;justify-content:center;margin:24px 0}
-  .tabs button{border:0;padding:10px 20px;border-radius:999px;cursor:pointer;
-       font-weight:700;font-size:14px;background:#fff;color:var(--muted);
-       box-shadow:0 2px 8px rgba(0,0,0,.06)}
-  .tabs button.active{background:var(--brand);color:#fff}
-  h2{font-size:22px;margin:0 0 6px}
-  h3{font-size:16px;margin:24px 0 6px;color:var(--brand)}
-  p,li{font-size:15px;color:#374151}
-  ul{padding-inline-start:20px}
-  .updated{color:var(--muted);font-size:13px;margin-bottom:18px}
-  .contact{background:#eff6ff;border-radius:14px;padding:16px;margin-top:22px}
-  .contact a{color:var(--brand);font-weight:700;text-decoration:none}
-  section{display:none}
-  section.active{display:block}
-  [dir="rtl"]{text-align:right}
-  footer{text-align:center;color:#9ca3af;font-size:12px;padding:20px}
-  .nav{display:flex;gap:10px;justify-content:center;margin-top:16px;flex-wrap:wrap}
-  .nav a{color:#fff;background:rgba(255,255,255,.18);padding:8px 16px;border-radius:999px;
-         text-decoration:none;font-size:14px;font-weight:600}
-  .nav a:hover{background:rgba(255,255,255,.3)}
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -55,287 +25,281 @@
     <button onclick="show('ar',this)">العربية</button>
   </div>
 
-  <!-- ─────────── ENGLISH ─────────── -->
-  <section id="en" class="active" dir="ltr">
+  <section id="en" class="active" dir="ltr" lang="en">
     <div class="card">
       <h2>Privacy Policy</h2>
-      <div class="updated">Last updated: October 2026</div>
-      <p>Vezgo ("we", "our", "us") provides a mobile application for booking vehicle
-         inspection (annual test) and garage services in Israel, including door-to-door
-         vehicle collection and return. This policy explains what information we collect,
-         why we collect it, and how we protect it.</p>
+      <div class="updated">Last updated: 13 November 2026</div>
+      <p>This policy explains what personal information Vezgo collects, why, who it is shared with, how long it is kept and what your rights are — under the Israeli Protection of Privacy Law, 5741-1981 (including Amendment 13) and the Data Security Regulations. If the Hebrew version and a translation differ, the Hebrew version prevails.</p>
 
-      <h3>Information we collect</h3>
+      <h3>1. Who is responsible for your data</h3>
+      <p>The database controller is Vezgo — Osek Patur no. 212345136, Tamra, Israel. For any privacy question: support@vezgo.app (subject: "Privacy").</p>
+
+      <h3>2. What we collect</h3>
       <ul>
-        <li><strong>Account details:</strong> full name, email address, phone number.</li>
-        <li><strong>Vehicle details:</strong> manufacturer, model, year, licence plate number.</li>
-        <li><strong>Location data:</strong> the pickup and return addresses you save, including
-            precise GPS coordinates you choose on the map. Location is used only to collect and
-            return your vehicle.</li>
-        <li><strong>Booking data:</strong> selected services, appointment times, notes you write,
-            and booking status history.</li>
-        <li><strong>Vehicle photos:</strong> our drivers may photograph the condition of your
-            vehicle at collection and return. These photos document the vehicle's state, protect
-            both you and us in case of a dispute, and are attached to your booking record.</li>
-        <li><strong>Profile photo:</strong> if you choose to set one, the picture you upload for
-            your profile. This is optional and you can remove it at any time.</li>
-        <li><strong>Messages:</strong> the messages you send through the in-app chat with our
-            call centre or with the driver handling your booking, so we can answer you and keep
-            a record of what was agreed.</li>
-        <li><strong>Payment data:</strong> payments are processed by our payment provider
-            (PayPlus). We do <strong>not</strong> store your full card number. We store only the
-            amount, transaction reference, card brand and last four digits for your receipt.</li>
-        <li><strong>Technical data:</strong> device identifiers, app version, and crash reports
-            (via Firebase Crashlytics) used to fix bugs and improve stability.</li>
+        <li>Account details: full name, email, phone number, and an encrypted password (or Google sign-in).</li>
+        <li>Vehicle details: manufacturer, model, year, colour, engine type and licence plate.</li>
+        <li>Location: the collection and return addresses you save, including the GPS point you choose on the map. The app uses your location only while you choose an address; it does not track you in the background.</li>
+        <li>Order data: services chosen, times, notes, status history and cancellation requests.</li>
+        <li>Vehicle photos: the driver photographs the vehicle at collection and return, and records a failed visit.</li>
+        <li>Messages: chat messages with our support team and the driver, and message reports.</li>
+        <li>Payment: amount, transaction reference, card brand and last four digits. The full card number stays with the payment provider only.</li>
+        <li>Technical data: app version, device model, a push-notification identifier and crash reports.</li>
+        <li>Profile photo: only if you choose to upload one.</li>
       </ul>
 
-      <h3>How we use your information</h3>
+      <h3>3. Why we use it</h3>
       <ul>
-        <li>To create and manage your bookings.</li>
-        <li>To let our driver collect your vehicle at the correct address.</li>
-        <li>To process payments and send you a receipt by email.</li>
-        <li>To send you service notifications (driver on the way, vehicle collected,
-            service completed, vehicle returning).</li>
-        <li>To provide customer support.</li>
-        <li>To detect, prevent and fix technical problems and misuse.</li>
+        <li>To carry out your order: collecting, servicing and returning the vehicle, and coordinating with the testing centre or garage.</li>
+        <li>To check that the address is inside the service area, and to prevent orders with false details.</li>
+        <li>To take payment, issue receipts and meet tax law.</li>
+        <li>To send service notifications (driver on the way, vehicle collected, service done, etc.).</li>
+        <li>For customer support, settling disputes and recording the vehicle's condition.</li>
+        <li>For security, fixing bugs and improving the app.</li>
+        <li>For news and offers — only if you agreed, and always with a way to stop.</li>
       </ul>
 
-      <h3>Who we share information with</h3>
-      <p>We do not sell your personal data. We share only what is necessary with:</p>
+      <h3>4. Do you have to give us this data?</h3>
+      <p>There is no legal obligation to give us any data. But without a name, phone, vehicle details and a collection address we cannot provide the service. A profile photo and agreeing to offers are optional.</p>
+
+      <h3>5. Who we share data with</h3>
+      <p>We do not sell personal data. We pass on only what is needed, to:</p>
       <ul>
-        <li><strong>Our drivers and staff</strong> — your name, phone and pickup address, so
-            they can collect and return your vehicle.</li>
-        <li><strong>PayPlus</strong> — to process your payment securely.</li>
-        <li><strong>Supabase</strong> — our backend and database provider (hosted in the EU).</li>
-        <li><strong>Google Firebase</strong> — push notifications and crash reporting.</li>
-        <li><strong>Google Maps / Places</strong> — address search and navigation.</li>
-        <li><strong>Resend</strong> — to deliver transactional emails (confirmations, receipts).</li>
-        <li><strong>Authorities</strong> — only where required by law.</li>
+        <li>Our drivers and support team — name, phone, address and vehicle details, to carry out the order.</li>
+        <li>The testing centre or garage — the vehicle details and what the service needs.</li>
+        <li>PayPlus (Israel) — payment processing.</li>
+        <li>Morning / Green Invoice (Israel) — issuing receipts.</li>
+        <li>Supabase — servers and database (hosted in the EU).</li>
+        <li>Google (Firebase, Maps) — notifications, crash reports, address search and maps.</li>
+        <li>Resend — operational emails (confirmations, password resets, receipts).</li>
+        <li>Authorities — only where the law requires it, or to protect our rights in legal proceedings.</li>
       </ul>
 
-      <h3>Data retention</h3>
-      <p>We keep booking and payment records for as long as required by Israeli tax and
-         accounting law. You may ask us to delete your account at any time; we will remove your
-         personal data except records we are legally required to keep.</p>
+      <h3>6. Transfers outside Israel</h3>
+      <p>Some of our providers store data in the EU and the United States. Transfers are made under the Privacy Protection (Transfer of Data to Databases Abroad) Regulations, to providers committed to an adequate level of protection.</p>
 
-      <h3>Security</h3>
-      <p>Data is transmitted over encrypted connections (HTTPS/TLS) and stored with
-         row-level access controls so that each user can only access their own records.
-         Payment confirmation is performed server-side only.</p>
+      <h3>7. How long we keep data</h3>
+      <ul>
+        <li>Account and vehicle details — while the account is active.</li>
+        <li>Orders, payments and receipts — 7 years, as tax law requires.</li>
+        <li>Vehicle photos and chat messages — up to 3 years after the order, to handle claims and disputes.</li>
+        <li>Crash reports — under Google's policy, usually up to 90 days.</li>
+      </ul>
+      <p>After that, data is deleted or made anonymous.</p>
 
-      <h3>Your rights</h3>
-      <p>You may request access to, correction of, or deletion of your personal data,
-         and you may withdraw consent for location use (this will limit the service).
-         Contact us using the details below.</p>
+      <h3>8. Security</h3>
+      <p>Data travels over encrypted connections (HTTPS/TLS) and is stored with row-level access controls, so each user reaches only their own data and each staff member only what their role needs. Payment confirmation happens on the server only, and the database is backed up daily. If a serious security incident happens, we will act and report it as the law requires.</p>
 
-      <h3>Deleting your account</h3>
-      <p>You can delete your Vezgo account from inside the app at any time:
-         <strong>Profile &rarr; Delete account</strong>. This removes your account and your
-         personal data immediately, and the email address becomes free to register again.</p>
-      <p>If you can no longer sign in, email
-         <a href="mailto:support@vezgo.app">support@vezgo.app</a> from the address registered
-         to your account with the subject "Delete my account". We will verify the request and
-         delete your account within 30 days.</p>
-      <p>Either way, booking and payment records that we are legally required to retain under
-         Israeli tax law are kept for the required period and then deleted.</p>
+      <h3>9. Your rights</h3>
+      <ul>
+        <li>To see the data we hold about you (section 13 of the law).</li>
+        <li>To ask us to correct or delete data that is wrong, incomplete, unclear or out of date (section 14).</li>
+        <li>To stop marketing messages at any time.</li>
+        <li>To delete your account at any time.</li>
+      </ul>
+      <p>Write to support@vezgo.app. We reply within 30 days. If you are not satisfied, you may contact the Israeli Privacy Protection Authority.</p>
 
-      <h3>Children</h3>
-      <p>Vezgo is not intended for children. The service is for licensed vehicle owners
-         and users aged 18 or over.</p>
+      <h3>10. Deleting your account</h3>
+      <p>Delete your account in the app: Profile → Delete account. If you cannot sign in, email support@vezgo.app from the address on the account with the subject "Delete my account", and we will delete it within 30 days. Records the law requires us to keep (such as receipts) are kept only for the required period.</p>
 
-      <h3>Changes to this policy</h3>
-      <p>We may update this policy from time to time. The latest version will always be
-         available at this address, with an updated date at the top.</p>
+      <h3>11. Messages and notifications</h3>
+      <p>Service notifications about your orders are part of the service. Marketing messages and offers are sent only with your consent, under section 30A of the Communications Law, and you can always stop them — in the app's notification settings or by emailing us.</p>
+
+      <h3>12. Minors</h3>
+      <p>The service is for people aged 18 and over. We do not knowingly collect data about minors.</p>
+
+      <h3>13. Changes to this policy</h3>
+      <p>We may update this policy. The current version is always at this address with its update date, and we will announce material changes in the app.</p>
 
       <div class="contact">
         <strong>Contact us</strong><br>
         Email: <a href="mailto:support@vezgo.app">support@vezgo.app</a><br>
-        Vezgo &middot; Tamra, Israel<br>
+        Vezgo · Tamra, Israel<br>
         <span style="color:#9ca3af;font-size:13px">Business (Osek Patur) No. 212345136</span>
       </div>
     </div>
   </section>
-
-  <!-- ─────────── HEBREW ─────────── -->
-  <section id="he" dir="rtl">
+  <section id="he" dir="rtl" lang="he">
     <div class="card">
       <h2>מדיניות פרטיות</h2>
-      <div class="updated">עודכן לאחרונה: אוקטובר 2026</div>
-      <p>Vezgo ("אנחנו") מפעילה אפליקציה להזמנת טסט שנתי ושירותי מוסך בישראל,
-         כולל איסוף הרכב מהכתובת שלך והחזרתו. מדיניות זו מסבירה איזה מידע אנחנו אוספים,
-         למה, וכיצד אנו מגנים עליו.</p>
+      <div class="updated">עודכן לאחרונה: 13 בנובמבר 2026</div>
+      <p>מדיניות זו מסבירה איזה מידע אישי Vezgo אוספת, למה, עם מי הוא משותף, כמה זמן הוא נשמר ומה הזכויות שלך — בהתאם לחוק הגנת הפרטיות, התשמ"א-1981 (כולל תיקון 13) ולתקנות אבטחת המידע. המדיניות מנוסחת בלשון זכר מטעמי נוחות ומתייחסת לכל המגדרים. במקרה של סתירה, הנוסח העברי קובע.</p>
 
-      <h3>מידע שאנחנו אוספים</h3>
+      <h3>1. מי אחראי על המידע</h3>
+      <p>בעל השליטה במאגר המידע הוא Vezgo — עוסק פטור מס׳ 212345136, טמרה, ישראל. בכל שאלה בנושא פרטיות: support@vezgo.app (בנושא: "פרטיות").</p>
+
+      <h3>2. איזה מידע אנחנו אוספים</h3>
       <ul>
-        <li><strong>פרטי חשבון:</strong> שם מלא, כתובת אימייל, מספר טלפון.</li>
-        <li><strong>פרטי רכב:</strong> יצרן, דגם, שנה, מספר רישוי.</li>
-        <li><strong>נתוני מיקום:</strong> כתובות האיסוף וההחזרה שאתה שומר, כולל נקודת GPS
-            מדויקת שבחרת במפה. המיקום משמש אך ורק לאיסוף והחזרת הרכב.</li>
-        <li><strong>נתוני הזמנה:</strong> השירותים שנבחרו, מועדי הזמנה, הערות שכתבת
-            והיסטוריית סטטוס.</li>
-        <li><strong>תמונות רכב:</strong> הנהגים שלנו עשויים לצלם את מצב הרכב בעת האיסוף
-            וההחזרה. התמונות מתעדות את מצב הרכב, מגנות עליך ועלינו במקרה של מחלוקת,
-            ומצורפות לרשומת ההזמנה.</li>
-        <li><strong>תמונת פרופיל:</strong> אם תבחר להעלות תמונה לפרופיל שלך. זה אופציונלי
-            וניתן להסיר אותה בכל עת.</li>
-        <li><strong>הודעות:</strong> ההודעות שאתה שולח בצ'אט שבאפליקציה מול מוקד השירות
-            או מול הנהג שמטפל בהזמנה, כדי שנוכל לענות לך ולשמור תיעוד של מה שסוכם.</li>
-        <li><strong>נתוני תשלום:</strong> התשלומים מעובדים על ידי ספק הסליקה שלנו (PayPlus).
-            אנחנו <strong>לא</strong> שומרים את מספר הכרטיס המלא. נשמרים רק הסכום, מזהה
-            העסקה, סוג הכרטיס וארבע הספרות האחרונות — עבור הקבלה.</li>
-        <li><strong>נתונים טכניים:</strong> מזהי מכשיר, גרסת אפליקציה ודוחות קריסה
-            (באמצעות Firebase Crashlytics) לצורך תיקון תקלות ושיפור היציבות.</li>
+        <li>פרטי חשבון: שם מלא, אימייל, מספר טלפון, וסיסמה מוצפנת (או התחברות דרך Google).</li>
+        <li>פרטי רכב: יצרן, דגם, שנה, צבע, סוג מנוע ומספר רישוי.</li>
+        <li>מיקום: כתובות האיסוף וההחזרה שאתה שומר, כולל נקודת GPS שבחרת במפה. האפליקציה ניגשת למיקום שלך רק כשאתה בוחר כתובת, ולא עוקבת אחריך ברקע.</li>
+        <li>נתוני הזמנה: השירותים שבחרת, מועדים, הערות, היסטוריית סטטוסים ובקשות ביטול.</li>
+        <li>תמונות רכב: הנהג מצלם את מצב הרכב באיסוף ובהחזרה, וכן מתעד ביקור שלא צלח.</li>
+        <li>הודעות: הודעות הצ'אט עם מוקד השירות ועם הנהג, ודיווחים על הודעות.</li>
+        <li>תשלום: סכום, מזהה עסקה, סוג כרטיס וארבע ספרות אחרונות. מספר הכרטיס המלא נשאר אצל ספק הסליקה בלבד.</li>
+        <li>נתונים טכניים: גרסת אפליקציה, דגם מכשיר, מזהה להתראות (Push) ודוחות קריסה.</li>
+        <li>תמונת פרופיל: רק אם בחרת להעלות.</li>
       </ul>
 
-      <h3>כיצד אנו משתמשים במידע</h3>
+      <h3>3. למה אנחנו משתמשים במידע</h3>
       <ul>
-        <li>ליצירה וניהול ההזמנות שלך.</li>
-        <li>כדי שהנהג שלנו יגיע לכתובת הנכונה לאיסוף הרכב.</li>
-        <li>לעיבוד תשלומים ושליחת קבלה במייל.</li>
-        <li>לשליחת התראות שירות (הנהג בדרך, הרכב נאסף, הטיפול הושלם, הרכב בדרך אליך).</li>
-        <li>למתן שירות לקוחות.</li>
-        <li>לזיהוי ומניעה של תקלות ושימוש לרעה.</li>
+        <li>לביצוע ההזמנה: איסוף, טיפול והחזרה של הרכב, ותיאום עם מכון הרישוי או המוסך.</li>
+        <li>לבדיקה שהכתובת נמצאת באזור השירות, ולמניעת הזמנות עם פרטים כוזבים.</li>
+        <li>לתשלום, להפקת קבלה ולעמידה בדיני המס.</li>
+        <li>לשליחת התראות שירות (הנהג בדרך, הרכב נאסף, הטיפול הסתיים וכו').</li>
+        <li>לשירות לקוחות, ליישוב מחלוקות ולתיעוד מצב הרכב.</li>
+        <li>לאבטחה, לתיקון תקלות ולשיפור האפליקציה.</li>
+        <li>לעדכונים ומבצעים — רק אם הסכמת לכך, ותמיד עם אפשרות להפסיק.</li>
       </ul>
 
-      <h3>עם מי אנו משתפים מידע</h3>
-      <p>איננו מוכרים את המידע האישי שלך. אנו משתפים רק את הנדרש עם:</p>
+      <h3>4. האם חובה למסור את המידע</h3>
+      <p>אין חובה חוקית למסור לנו מידע. עם זאת, בלי שם, טלפון, פרטי רכב וכתובת איסוף איננו יכולים לבצע את השירות. תמונת פרופיל והסכמה לקבלת מבצעים הן רשות בלבד.</p>
+
+      <h3>5. עם מי אנחנו משתפים מידע</h3>
+      <p>איננו מוכרים מידע אישי. אנו מעבירים רק את מה שנדרש, לגורמים אלה:</p>
       <ul>
-        <li><strong>הנהגים והצוות שלנו</strong> — שם, טלפון וכתובת איסוף.</li>
-        <li><strong>PayPlus</strong> — לעיבוד מאובטח של התשלום.</li>
-        <li><strong>Supabase</strong> — ספק השרתים ובסיס הנתונים שלנו (מאוחסן באיחוד האירופי).</li>
-        <li><strong>Google Firebase</strong> — התראות ודיווח קריסות.</li>
-        <li><strong>Google Maps / Places</strong> — חיפוש כתובות וניווט.</li>
-        <li><strong>Resend</strong> — לשליחת מיילים תפעוליים (אישורים, קבלות).</li>
-        <li><strong>רשויות</strong> — רק כאשר החוק מחייב.</li>
+        <li>הנהגים ומוקד השירות שלנו — שם, טלפון, כתובת ופרטי רכב, לצורך ביצוע ההזמנה.</li>
+        <li>מכון הרישוי או המוסך — פרטי הרכב ומה שנדרש לטיפול.</li>
+        <li>PayPlus (ישראל) — עיבוד התשלום.</li>
+        <li>Morning / חשבונית ירוקה (ישראל) — הפקת קבלות.</li>
+        <li>Supabase — שרתים ובסיס נתונים (מאוחסן באיחוד האירופי).</li>
+        <li>Google (Firebase, Maps) — התראות, דוחות קריסה, חיפוש כתובות ומפות.</li>
+        <li>Resend — שליחת מיילים תפעוליים (אישורים, איפוס סיסמה, קבלות).</li>
+        <li>רשויות — רק כשהחוק מחייב, או לצורך הגנה על זכויותינו בהליך משפטי.</li>
       </ul>
 
-      <h3>שמירת מידע</h3>
-      <p>אנו שומרים רשומות הזמנה ותשלום למשך הזמן הנדרש על פי דיני המס והחשבונאות
-         בישראל. ניתן לבקש מחיקת חשבון בכל עת; נמחק את המידע האישי למעט רשומות שאנו
-         מחויבים לשמור על פי חוק.</p>
+      <h3>6. העברת מידע אל מחוץ לישראל</h3>
+      <p>חלק מהספקים שלנו מאחסנים מידע באיחוד האירופי ובארצות הברית. ההעברה נעשית בהתאם לתקנות הגנת הפרטיות (העברת מידע אל מאגרי מידע שמחוץ לגבולות המדינה), ולספקים שמחויבים לרמת הגנה נאותה.</p>
 
-      <h3>אבטחה</h3>
-      <p>המידע מועבר בחיבורים מוצפנים (HTTPS/TLS) ונשמר עם בקרות הרשאה ברמת השורה,
-         כך שכל משתמש ניגש רק לרשומות שלו. אישור התשלום מתבצע בצד השרת בלבד.</p>
+      <h3>7. כמה זמן אנחנו שומרים מידע</h3>
+      <ul>
+        <li>פרטי חשבון ורכב — כל עוד החשבון פעיל.</li>
+        <li>הזמנות, תשלומים וקבלות — 7 שנים, כנדרש בדיני המס.</li>
+        <li>תמונות רכב והודעות צ'אט — עד 3 שנים מההזמנה, לצורך טיפול בתביעות ומחלוקות.</li>
+        <li>דוחות קריסה — לפי מדיניות Google, בדרך כלל עד 90 יום.</li>
+      </ul>
+      <p>לאחר מכן המידע נמחק או הופך לאנונימי.</p>
 
-      <h3>הזכויות שלך</h3>
-      <p>באפשרותך לבקש גישה, תיקון או מחיקה של המידע האישי שלך, ולבטל הסכמה לשימוש
-         במיקום (הדבר יגביל את השירות). ניתן לפנות אלינו בפרטים שלהלן.</p>
+      <h3>8. אבטחת מידע</h3>
+      <p>המידע מועבר בחיבור מוצפן (HTTPS/TLS) ונשמר בהרשאות גישה ברמת השורה, כך שכל משתמש ניגש רק למידע שלו, וכל עובד רק למה שנדרש לתפקידו. אישור תשלום מתבצע בצד השרת בלבד, ומתבצע גיבוי יומי. במקרה של אירוע אבטחה חמור נפעל ונדווח כנדרש בחוק.</p>
 
-      <h3>מחיקת החשבון</h3>
-      <p>ניתן למחוק את חשבון Vezgo ישירות מתוך האפליקציה בכל עת:
-         <strong>פרופיל &larr; מחיקת חשבון</strong>. הפעולה מוחקת את החשבון ואת המידע האישי
-         באופן מיידי, וכתובת האימייל משתחררת לרישום מחדש.</p>
-      <p>אם אינך מצליח להתחבר, שלח מייל לכתובת
-         <a href="mailto:support@vezgo.app">support@vezgo.app</a> מהכתובת הרשומה בחשבון
-         עם הנושא "מחיקת חשבון". נאמת את הבקשה ונמחק את החשבון תוך 30 יום.</p>
-      <p>בשני המקרים, רשומות הזמנה ותשלום שאנו מחויבים לשמור על פי דיני המס בישראל יישמרו
-         לתקופה הנדרשת ולאחר מכן יימחקו.</p>
+      <h3>9. הזכויות שלך</h3>
+      <ul>
+        <li>לעיין במידע שלך (סעיף 13 לחוק).</li>
+        <li>לבקש תיקון או מחיקה של מידע שאינו נכון, שלם, ברור או מעודכן (סעיף 14 לחוק).</li>
+        <li>לבקש שלא נשלח לך דיוור שיווקי, בכל עת.</li>
+        <li>למחוק את החשבון בכל עת.</li>
+      </ul>
+      <p>לפנייה: support@vezgo.app. נענה תוך 30 יום. אם אינך מרוצה מהתשובה, ניתן לפנות לרשות להגנת הפרטיות.</p>
 
-      <h3>ילדים</h3>
-      <p>Vezgo אינה מיועדת לילדים. השירות מיועד לבעלי רכב מגיל 18 ומעלה.</p>
+      <h3>10. מחיקת החשבון</h3>
+      <p>ניתן למחוק את החשבון מתוך האפליקציה: פרופיל ← מחיקת חשבון. אם אינך מצליח להתחבר, שלח מייל ל-support@vezgo.app מהכתובת הרשומה בחשבון, עם הנושא "מחיקת חשבון", ונמחק אותו תוך 30 יום. רשומות שהחוק מחייב לשמור (למשל קבלות) יישמרו לתקופה הנדרשת בלבד.</p>
 
-      <h3>שינויים במדיניות</h3>
-      <p>ייתכנו עדכונים למדיניות זו. הגרסה העדכנית תמיד תופיע בכתובת זו, עם תאריך עדכון.</p>
+      <h3>11. דיוור והתראות</h3>
+      <p>התראות שירות על ההזמנות שלך נשלחות כחלק מהשירות. הודעות שיווקיות ומבצעים יישלחו רק בהסכמתך, בהתאם לסעיף 30א לחוק התקשורת, ותמיד תוכל להפסיק אותן — בהגדרות ההתראות באפליקציה או במייל אלינו.</p>
+
+      <h3>12. קטינים</h3>
+      <p>השירות מיועד לבני 18 ומעלה. איננו אוספים ביודעין מידע על קטינים.</p>
+
+      <h3>13. שינויים במדיניות</h3>
+      <p>אנו עשויים לעדכן מדיניות זו. הגרסה העדכנית מופיעה תמיד בכתובת זו עם תאריך העדכון, ועל שינוי מהותי נודיע באפליקציה.</p>
 
       <div class="contact">
         <strong>יצירת קשר</strong><br>
         אימייל: <a href="mailto:support@vezgo.app">support@vezgo.app</a><br>
-        Vezgo &middot; טמרה, ישראל<br>
-        <span style="color:#9ca3af;font-size:13px">עוסק פטור מס׳ 212345136</span>
+        Vezgo · טמרה, ישראל<br>
+        <span style="color:#9ca3af;font-size:13px">עוסק פטור 212345136</span>
       </div>
     </div>
   </section>
-
-  <!-- ─────────── ARABIC ─────────── -->
-  <section id="ar" dir="rtl">
+  <section id="ar" dir="rtl" lang="ar">
     <div class="card">
       <h2>سياسة الخصوصية</h2>
-      <div class="updated">آخر تحديث: تشرين الأول/أكتوبر 2026</div>
-      <p>تقدّم Vezgo ("نحن") تطبيقاً لحجز الفحص السنوي للمركبات وخدمات الكراج في إسرائيل،
-         بما في ذلك استلام السيارة من عنوانك وإعادتها. توضح هذه السياسة ما نجمعه من معلومات،
-         ولماذا، وكيف نحميه.</p>
+      <div class="updated">آخر تحديث: 13 تشرين الثاني/نوفمبر 2026</div>
+      <p>توضح هذه السياسة ما هي المعلومات الشخصية التي يجمعها Vezgo، ولماذا، ومع من تُشارك، وكم تُحفظ، وما هي حقوقك — وفق قانون حماية الخصوصية الإسرائيلي لسنة 1981 (بما في ذلك التعديل 13) وأنظمة أمن المعلومات. في حال وجود اختلاف بين النص العبري والترجمة، يسري النص العبري.</p>
 
-      <h3>المعلومات التي نجمعها</h3>
+      <h3>1. من المسؤول عن معلوماتك</h3>
+      <p>صاحب السيطرة على قاعدة البيانات هو Vezgo — عوسيك باطور رقم 212345136، طمرة، إسرائيل. لأي سؤال حول الخصوصية: support@vezgo.app (الموضوع: "خصوصية").</p>
+
+      <h3>2. ما المعلومات التي نجمعها</h3>
       <ul>
-        <li><strong>بيانات الحساب:</strong> الاسم الكامل، البريد الإلكتروني، رقم الهاتف.</li>
-        <li><strong>بيانات المركبة:</strong> الشركة المصنّعة، الطراز، السنة، رقم اللوحة.</li>
-        <li><strong>بيانات الموقع:</strong> عناوين الاستلام والإرجاع التي تحفظها، بما في ذلك
-            إحداثيات GPS الدقيقة التي تختارها على الخريطة. يُستخدم الموقع فقط لاستلام
-            سيارتك وإعادتها.</li>
-        <li><strong>بيانات الحجز:</strong> الخدمات المختارة، مواعيد الحجز، الملاحظات التي
-            تكتبها، وسجل الحالة.</li>
-        <li><strong>صور المركبة:</strong> قد يقوم سائقونا بتصوير حالة سيارتك عند الاستلام
-            والإرجاع. توثّق هذه الصور حالة المركبة وتحمي الطرفين في حال وجود خلاف،
-            وتُرفق بسجل حجزك.</li>
-        <li><strong>صورة الملف الشخصي:</strong> إذا اخترت رفع صورة لملفك الشخصي. هذا اختياري
-            ويمكنك إزالتها في أي وقت.</li>
-        <li><strong>الرسائل:</strong> الرسائل التي ترسلها عبر الدردشة داخل التطبيق مع مركز
-            الاتصال أو مع السائق الذي يتولى حجزك، كي نتمكن من الرد عليك وحفظ توثيق لما تم
-            الاتفاق عليه.</li>
-        <li><strong>بيانات الدفع:</strong> تتم معالجة المدفوعات عبر مزوّد الدفع (PayPlus).
-            نحن <strong>لا</strong> نحتفظ برقم بطاقتك الكامل. نحفظ فقط المبلغ ومرجع العملية
-            ونوع البطاقة وآخر أربعة أرقام لإصدار الإيصال.</li>
-        <li><strong>بيانات تقنية:</strong> معرّفات الجهاز، إصدار التطبيق، وتقارير الأعطال
-            (عبر Firebase Crashlytics) لإصلاح المشاكل وتحسين الاستقرار.</li>
+        <li>بيانات الحساب: الاسم الكامل، البريد الإلكتروني، رقم الهاتف، وكلمة مرور مشفّرة (أو الدخول عبر Google).</li>
+        <li>بيانات المركبة: الشركة المصنّعة، الطراز، السنة، اللون، نوع المحرّك ورقم اللوحة.</li>
+        <li>الموقع: عناوين الاستلام والإعادة التي تحفظها، بما في ذلك نقطة GPS التي تختارها على الخريطة. يستخدم التطبيق موقعك فقط أثناء اختيار العنوان، ولا يتتبّعك في الخلفية.</li>
+        <li>بيانات الطلب: الخدمات المختارة، المواعيد، الملاحظات، سجل الحالات وطلبات الإلغاء.</li>
+        <li>صور المركبة: يصوّر السائق المركبة عند الاستلام والإعادة، ويوثّق الزيارة التي لم تنجح.</li>
+        <li>الرسائل: رسائل الدردشة مع فريق الدعم ومع السائق، والبلاغات عن الرسائل.</li>
+        <li>الدفع: المبلغ، رقم المعاملة، نوع البطاقة وآخر أربعة أرقام. رقم البطاقة الكامل يبقى لدى مزوّد الدفع فقط.</li>
+        <li>بيانات تقنية: إصدار التطبيق، طراز الجهاز، معرّف الإشعارات وتقارير الأعطال.</li>
+        <li>صورة الملف الشخصي: فقط إذا اخترت رفعها.</li>
       </ul>
 
-      <h3>كيف نستخدم معلوماتك</h3>
+      <h3>3. لماذا نستخدم المعلومات</h3>
       <ul>
-        <li>لإنشاء حجوزاتك وإدارتها.</li>
-        <li>لتمكين سائقنا من الوصول إلى العنوان الصحيح لاستلام سيارتك.</li>
-        <li>لمعالجة المدفوعات وإرسال إيصال إلى بريدك الإلكتروني.</li>
-        <li>لإرسال إشعارات الخدمة (السائق في الطريق، تم الاستلام، تمت الخدمة، السيارة عائدة إليك).</li>
-        <li>لتقديم دعم العملاء.</li>
-        <li>لاكتشاف المشاكل التقنية وإساءة الاستخدام ومنعها.</li>
+        <li>لتنفيذ طلبك: استلام المركبة وخدمتها وإعادتها، والتنسيق مع مركز الفحص أو الكراج.</li>
+        <li>للتحقّق من أن العنوان داخل منطقة الخدمة، ولمنع الطلبات ببيانات كاذبة.</li>
+        <li>للدفع وإصدار الإيصالات والالتزام بقوانين الضرائب.</li>
+        <li>لإرسال إشعارات الخدمة (السائق في الطريق، تم استلام المركبة، انتهت الخدمة وغيرها).</li>
+        <li>لخدمة العملاء وحلّ الخلافات وتوثيق حالة المركبة.</li>
+        <li>للأمان وإصلاح الأعطال وتحسين التطبيق.</li>
+        <li>للأخبار والعروض — فقط إذا وافقت، ومع إمكانية الإيقاف دائماً.</li>
       </ul>
 
-      <h3>مع من نشارك المعلومات</h3>
-      <p>نحن لا نبيع بياناتك الشخصية. نشارك فقط ما هو ضروري مع:</p>
+      <h3>4. هل يجب عليك تقديم المعلومات</h3>
+      <p>لا يوجد التزام قانوني بتقديم أي معلومات. لكن بدون الاسم والهاتف وبيانات المركبة وعنوان الاستلام لا يمكننا تقديم الخدمة. صورة الملف الشخصي والموافقة على العروض اختيارية.</p>
+
+      <h3>5. مع من نشارك المعلومات</h3>
+      <p>لا نبيع المعلومات الشخصية. ننقل فقط ما يلزم إلى:</p>
       <ul>
-        <li><strong>سائقينا وطاقمنا</strong> — الاسم والهاتف وعنوان الاستلام.</li>
-        <li><strong>PayPlus</strong> — لمعالجة الدفع بأمان.</li>
-        <li><strong>Supabase</strong> — مزوّد الخوادم وقاعدة البيانات (مستضاف في الاتحاد الأوروبي).</li>
-        <li><strong>Google Firebase</strong> — الإشعارات وتقارير الأعطال.</li>
-        <li><strong>Google Maps / Places</strong> — البحث عن العناوين والملاحة.</li>
-        <li><strong>Resend</strong> — لإرسال الرسائل التشغيلية (التأكيدات والإيصالات).</li>
-        <li><strong>الجهات الرسمية</strong> — فقط عندما يقتضي القانون ذلك.</li>
+        <li>سائقينا وفريق الدعم — الاسم والهاتف والعنوان وبيانات المركبة، لتنفيذ الطلب.</li>
+        <li>مركز الفحص أو الكراج — بيانات المركبة وما تحتاجه الخدمة.</li>
+        <li>PayPlus (إسرائيل) — معالجة الدفع.</li>
+        <li>Morning / الفاتورة الخضراء (إسرائيل) — إصدار الإيصالات.</li>
+        <li>Supabase — الخوادم وقاعدة البيانات (مستضافة في الاتحاد الأوروبي).</li>
+        <li>Google (Firebase وMaps) — الإشعارات وتقارير الأعطال والبحث عن العناوين والخرائط.</li>
+        <li>Resend — إرسال الرسائل التشغيلية (التأكيدات، إعادة تعيين كلمة المرور، الإيصالات).</li>
+        <li>السلطات — فقط عندما يفرض القانون ذلك، أو لحماية حقوقنا في إجراء قانوني.</li>
       </ul>
 
-      <h3>الاحتفاظ بالبيانات</h3>
-      <p>نحتفظ بسجلات الحجز والدفع للمدة التي تقتضيها قوانين الضرائب والمحاسبة في إسرائيل.
-         يمكنك طلب حذف حسابك في أي وقت؛ وسنحذف بياناتك الشخصية باستثناء السجلات التي
-         يلزمنا القانون بالاحتفاظ بها.</p>
+      <h3>6. نقل المعلومات إلى خارج إسرائيل</h3>
+      <p>يخزّن بعض مزوّدينا المعلومات في الاتحاد الأوروبي والولايات المتحدة. يتم النقل وفق أنظمة حماية الخصوصية (نقل معلومات إلى قواعد بيانات خارج حدود الدولة)، وإلى مزوّدين ملتزمين بمستوى حماية مناسب.</p>
 
-      <h3>الأمان</h3>
-      <p>تُنقل البيانات عبر اتصالات مشفّرة (HTTPS/TLS) وتُخزَّن مع ضوابط وصول على مستوى
-         الصف، بحيث لا يصل كل مستخدم إلا إلى سجلاته. يتم تأكيد الدفع من جهة الخادم فقط.</p>
+      <h3>7. مدة حفظ المعلومات</h3>
+      <ul>
+        <li>بيانات الحساب والمركبة — طالما الحساب فعّال.</li>
+        <li>الطلبات والمدفوعات والإيصالات — 7 سنوات، كما تفرض قوانين الضرائب.</li>
+        <li>صور المركبة ورسائل الدردشة — حتى 3 سنوات من الطلب، لمعالجة المطالبات والخلافات.</li>
+        <li>تقارير الأعطال — وفق سياسة Google، عادةً حتى 90 يوماً.</li>
+      </ul>
+      <p>بعد ذلك تُحذف المعلومات أو تصبح مجهولة الهوية.</p>
 
-      <h3>حقوقك</h3>
-      <p>يمكنك طلب الوصول إلى بياناتك الشخصية أو تصحيحها أو حذفها، ويمكنك سحب الموافقة
-         على استخدام الموقع (سيحدّ ذلك من الخدمة). تواصل معنا عبر التفاصيل أدناه.</p>
+      <h3>8. أمن المعلومات</h3>
+      <p>تنتقل المعلومات عبر اتصالات مشفّرة (HTTPS/TLS) وتُحفظ بصلاحيات وصول على مستوى السجلّ، بحيث يصل كل مستخدم إلى معلوماته فقط، وكل موظف إلى ما يحتاجه لعمله فقط. يتم تأكيد الدفع على الخادم فقط، ويُنسخ احتياطياً يومياً. في حال وقوع حادث أمني خطير، سنتصرّف ونبلّغ كما يفرض القانون.</p>
 
-      <h3>حذف حسابك</h3>
-      <p>يمكنك حذف حساب Vezgo من داخل التطبيق في أي وقت:
-         <strong>الملف الشخصي &larr; حذف الحساب</strong>. يؤدي ذلك إلى حذف حسابك وبياناتك
-         الشخصية فوراً، ويصبح عنوان البريد الإلكتروني متاحاً للتسجيل من جديد.</p>
-      <p>إذا تعذّر عليك تسجيل الدخول، أرسل بريداً إلكترونياً إلى
-         <a href="mailto:support@vezgo.app">support@vezgo.app</a> من العنوان المسجّل في حسابك
-         بعنوان "حذف حسابي". سنتحقق من الطلب ونحذف حسابك خلال 30 يوماً.</p>
-      <p>في كلتا الحالتين، سجلات الحجز والدفع التي يلزمنا القانون الضريبي في إسرائيل
-         بالاحتفاظ بها ستُحفظ للمدة المطلوبة ثم تُحذف.</p>
+      <h3>9. حقوقك</h3>
+      <ul>
+        <li>الاطلاع على المعلومات التي نحتفظ بها عنك (البند 13 من القانون).</li>
+        <li>طلب تصحيح أو حذف معلومات غير صحيحة أو غير كاملة أو غير واضحة أو غير محدّثة (البند 14).</li>
+        <li>إيقاف الرسائل التسويقية في أي وقت.</li>
+        <li>حذف حسابك في أي وقت.</li>
+      </ul>
+      <p>راسلنا على support@vezgo.app. نردّ خلال 30 يوماً. وإذا لم تكن راضياً، يمكنك التوجّه إلى سلطة حماية الخصوصية.</p>
 
-      <h3>الأطفال</h3>
-      <p>Vezgo ليست مخصصة للأطفال. الخدمة موجّهة لأصحاب المركبات من عمر 18 عاماً فما فوق.</p>
+      <h3>10. حذف الحساب</h3>
+      <p>احذف حسابك من التطبيق: الملف الشخصي ← حذف الحساب. إذا لم تتمكّن من الدخول، أرسل بريداً إلى support@vezgo.app من العنوان المسجّل في الحساب بعنوان "حذف الحساب"، وسنحذفه خلال 30 يوماً. السجلات التي يفرض القانون حفظها (مثل الإيصالات) تُحفظ للمدة المطلوبة فقط.</p>
 
-      <h3>تغييرات على هذه السياسة</h3>
-      <p>قد نحدّث هذه السياسة من وقت لآخر. تتوفر النسخة الأحدث دائماً على هذا العنوان
-         مع تاريخ التحديث.</p>
+      <h3>11. الرسائل والإشعارات</h3>
+      <p>إشعارات الخدمة الخاصة بطلباتك جزء من الخدمة. الرسائل التسويقية والعروض تُرسل فقط بموافقتك، وفق البند 30أ من قانون الاتصالات، ويمكنك إيقافها دائماً — من إعدادات الإشعارات في التطبيق أو بمراسلتنا.</p>
+
+      <h3>12. القاصرون</h3>
+      <p>الخدمة مخصّصة لمن هم في سن 18 فما فوق. لا نجمع عن علم معلومات عن القاصرين.</p>
+
+      <h3>13. التغييرات على السياسة</h3>
+      <p>قد نحدّث هذه السياسة. النسخة الحالية موجودة دائماً على هذا العنوان مع تاريخ التحديث، وسنعلن عن التغييرات الجوهرية في التطبيق.</p>
 
       <div class="contact">
         <strong>تواصل معنا</strong><br>
         البريد الإلكتروني: <a href="mailto:support@vezgo.app">support@vezgo.app</a><br>
-        Vezgo &middot; طمرة، إسرائيل<br>
+        Vezgo · طمرة، إسرائيل<br>
         <span style="color:#9ca3af;font-size:13px">رقم العمل (عوسيك باطور) 212345136</span>
       </div>
     </div>
@@ -351,6 +315,12 @@ function show(id, btn){
   document.querySelectorAll('.tabs button').forEach(b=>b.classList.remove('active'));
   btn.classList.add('active');
 }
+// Open the tab named in the address (#he / #ar), e.g. from the app.
+(function(){
+  var id=(location.hash||'').slice(1);
+  var i={en:0,he:1,ar:2}[id];
+  if(i!==undefined){ show(id, document.querySelectorAll('.tabs button')[i]); setTimeout(function(){window.scrollTo(0,0);},0); }
+})();
 </script>
 </body>
 </html>
